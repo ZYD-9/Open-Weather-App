@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th = "http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather By City </title>
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Weather in [[${weather.city}]]</h1>
+    <p><strong>Description:</strong> [[${weather.description}]]</p>
+    <p><strong>Temperature:</strong> [[${weather.temperature}]] °C</p>
+    <a href="/">Back</a>
+</div>
+</body>
+</html>
